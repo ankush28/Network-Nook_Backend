@@ -39,7 +39,7 @@ app.use(passport.initialize());
 app.use('/', (req, res, next) => {
     console.log("hua")
     let url;
-    url = "http://localhost:4200";
+    url = "https://network-nook-frontend.vercel.app";
     res.header('Access-Control-Allow-Origin', url);
     res.header('Access-Control-Allow-Headers', 'Origin,X-Requested-With,Content-Type,Accept,Authorization');
     next();
